@@ -1,0 +1,66 @@
+
+
+.ich {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+}
+
+Profilbild
+
+     
+Workexperience
+
+      @mixin make-container($gutter: $container-padding-x) {
+        --#{$prefix}gutter-x: #{$gutter};
+        --#{$prefix}gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--#{$prefix}gutter-x) * .5); // stylelint-disable-line function-disallowed-list
+        padding-left: calc(var(--#{$prefix}gutter-x) * .5); // stylelint-disable-line function-disallowed-list
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  margin: 10%;
+ ;
+  
+}
+
+
+
+
+
+.video {
+        display: flex;
+        justify-content: center;
+        justify-items: center
+
+      }
+
+
+.contact {
+        display: flex;
+        justify-content: center;
+        justify-items: center ;
+      }
+
+
+ .Education {
+  display: grid;
+  width: 600px;
+ }     
+
+ .Workexperience {
+  display: grid;
+
+  width: 600px;
+ }
+
+Footer {
+display: flex;
+flex-direction: row;
+}
